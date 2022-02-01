@@ -14,6 +14,11 @@ const AuthPage = () => {
         clearError()
     }, [error, message, clearError]);
 
+    useEffect(() => {
+        //active inputs
+        window.M.updateTextFields()
+    }, [])
+
     const changeHandler = event => {
         setForm({...form, [event.target.name]: event.target.value})
     }

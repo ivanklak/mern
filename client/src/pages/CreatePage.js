@@ -1,9 +1,10 @@
 import React from "react";
 
 const CreatePage = () => {
+
     return (
         <div>
-            Create page
+            <h1>Create page</h1>
         </div>
     )
 }
