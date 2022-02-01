@@ -1,5 +1,6 @@
 {
   "port": 5000,
   "jwtSecret":  "ivan developer",
-  "mongoUri": "mongodb+srv://ivanklak:Qawwali-411@cluster0.hqwmk.mongodb.net/app?retryWrites=true&w=majority"
+  "mongoUri": "mongodb+srv://ivanklak:Qawwali-411@cluster0.hqwmk.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
 }
